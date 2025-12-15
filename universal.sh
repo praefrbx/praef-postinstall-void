@@ -1,6 +1,8 @@
 ## xi and mirror
 sudo xbps-install -y xtools xmirror
 
+xi -y void-repo-nonfree void-repo-multilib void-repo-multilib-nonfree
+
 ## wayland and xorg
 xi -y wayland xorg xorg-minimal
 
